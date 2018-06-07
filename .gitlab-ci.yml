@@ -1,0 +1,7 @@
+job:
+  image: node:10.4
+  before_script:
+    - npm ci
+  script:
+    - npm test
+
